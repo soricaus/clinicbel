@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clinica CLINICBEL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="12">
+    <nav class="navbar navbar-expand-md fixed-top main-nav" id="myNavbar">
+        <div class="container">
+            <div class="navbar-collapse collapse nav-content order-2" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myPage">Acasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Despre noi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Servicii</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
+                <li class="nav-item">
+                    <p id="brand">CLINICBEL</p>
+                </li>
+                <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target=".nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </ul>
+            <div class="ml-auto navbar-collapse collapse nav-content order-3 order-md-3" id="myNavbar">
+                <ul class="ml-auto nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Colaboratori</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Preturi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="carousel-container">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/frunza.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/interior.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/prezentare.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    <div class="jumbotron text-center">
+        <div class="container-fluid">
+            <h1><strong>CLINICBEL</strong></h1>
+            <h3>Specialisti in medicina muncii</h3>
+            <div class="col-md-6 offset-md-3">
+                <p><strong>Servicii de medicina muncii, la sediul nostru , sau la sediul clientului.</strong></p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Container (Despre noi Section) -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Despre noi</h2><br>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</h4><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br><button class="btn btn-default btn-lg"><a href="#contact">Get in Touch</a></button>
+            </div>
+            <div class="col-sm-4 text-center">
+                <span class="logo slideanim"><i class="fas fa-dna fa-6x"></i></span>
+            </div>
+        </div>
+    </div>
+    <div id="banner" class="container-fluid">
+        <div class="row">
+            <img src="images/logo_first.jpg" alt="Logo" width="100%"/>
+        </div>
+    </div>
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <span class="logo slideanim"><i class="fas fa-file-medical-alt fa-6x"></i></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Valorile noastre</h2><br>
+                <h4><strong>MISIUNE:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+                <p><strong>VISIUNE:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid text-center">
+        <h2>SERVICII</h2>
+        <h4>Cu ce va putem ajuta</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="logo-small"><i class="fas fa-biohazard"></i></span>
+                <h4>MEDICINA MUNCII</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="logo-small"><i class="fas fa-heart"></i></span>
+                <h4>PSIHOLOGIA MUNCII</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="logo-small"><i class="fas fa-cannabis"></i></span>
+                <h4>PROTECTIA MUNCII</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="logo-small"><i class="fas fa-biohazard"></i></span>
+                <h4>MEDICINA DE FAMILIE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="logo-small"><i class="fas fa-user-md"></i></span>
+                <h4>TESTE PSIHOLOGICE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="logo-small"><i class="fas fa-brain"></i></span>
+                <h4 style="color:#303030;">ADEVERINTE MEDICALE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Portfolio Section) -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+        <h2>Colaboratori</h2><br>
+        <h4>Partenerii nostri de incredere</h4>
+        <div class="row text-center slideanim">
+            <div class="col-sm-4">
+                <div class="thumbnail" data-toggle="modal" data-target="#medlife">
+                    <img src="images/medlife.jpg" alt="MedLife" width="400" height="300">
+                    <p><strong>MedLife</strong></p>
+                    <p>O colaborare de peste 10 ani.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail" data-toggle="modal" data-target="#regina_maria">
+                    <img src="images/reginamaria.jpg" alt="ReginaMaria" width="400" height="300">
+                    <p><strong>Regina Maria</strong></p>
+                    <p>Partenerul nostru de incredere.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail" data-toggle="modal" data-target="#mediclass">
+                    <img src="images/mediclass2.jpg" alt="MediClass" width="400" height="300">
+                    <p><strong>MediClass</strong></p>
+                    <p>Centru Medical multidisciplinar de diagnostic si tratament ambulatoriu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="medlife" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Excelenta in sanatate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>MedLife este compania care isi dedica toate resursele pentru a asigura fiecarui client servicii medicale profesioniste la cele mai inalte standarde, bazate pe un suport tehnologic de ultima generatie, in conditii impecabile de siguranta si confort.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="regina_maria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Reteaua privata de sanatate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Reteaua de sanatate REGINA MARIA continua extinderea la nivel national cu doua noi achizitii importante din punct de vedere al portofoliului de servicii, al specialitatilor medicale oferite si a pozitiei geografice, depasind pragul de 30 de achizitii realizate si integrate pe plan local.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="mediclass" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sanatatea cere excelenta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>MediClass s-a deschis in luna noiembrie 2006, la initiativa Dr. Maria Dana Constantinescu, medic primar de medicina generala, sub Coordonarea Stiintifica a Prof. Dr. Alexandru Oproiu.Ideea acestui centru medical s-a nascut din dorinta de orientare mai atenta SI CATRE OMUL din PACIENT.Intr-o lume in care goana dupa eficienta, performanta si profit au deteriorat considerabil calitatea vietii, consecinta inevitabila a devenit marginalizarea uneia dintre laturile fundamentale ale profesiei de medic - si anume viziunea de ansamblu asupra fiintei umane.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Pricing Section) -->
+    <div id="pricing" class="container-fluid">
+        <div class="text-center">
+            <h2>Preturi</h2>
+            <h4>Platiti doar pentru ce aveti nevoie!</h4>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Basic</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>20</strong> Lorem</p>
+                        <p><strong>15</strong> Ipsum</p>
+                        <p><strong>5</strong> Dolor</p>
+                        <p><strong>2</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$19</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Pro</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>50</strong> Lorem</p>
+                        <p><strong>25</strong> Ipsum</p>
+                        <p><strong>10</strong> Dolor</p>
+                        <p><strong>5</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$29</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>100</strong> Lorem</p>
+                        <p><strong>50</strong> Ipsum</p>
+                        <p><strong>25</strong> Dolor</p>
+                        <p><strong>10</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$49</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Trimiteti-ne un mesaj si va vom contacta cit de curind.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Bd. George Enescu Nr. 48, Bl.T96, Sc. C, Parter, Suceava, RO</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>clinicbel@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit" onclick="parent.location='mailto:clinicbel@gmail.com'">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Image of location/map -->
+    <iframe width="100%" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=Bloc%20T96%20Bulevardul%20George%20Enescu%2048%20Suceava%20720247&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe>
+    <footer class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4 justify-content-center align-self-center">
+                <p>Bd. George Enescu Nr. 48, Bl.T96, Sc. C, Parter, Suceava, RO</p>
+                <p>clinicbel@gmail.com</p>
+            </div>
+            <div class="col-md-4 justify-content-center align-self-center">
+                <a class="btn back-to-top" id="back-to-top" href="#" title="To Top">
+                <span class="logo slideanim"><i class="fas fa-angle-double-up" style="color: #fff"></i></span>
+                    </a>
+                <p>Copyrirght &copy <a href="mailto:clinicbel@gmail.com" title="Contact">ClinicBel</a></p>
+            </div>
+            <div class="col-md-4 justify-content-center align-self-center">
+                <h3>Sunati acum :</h3>
+                <p>0743 453381, 0330 041652</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+    $(document).ready(function() {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".nav-link a, footer a[href='#']").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+
+        $(window).scroll(function() {
+            $(".slideanim").each(function() {
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>
